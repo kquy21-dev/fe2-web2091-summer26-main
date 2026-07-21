@@ -34,7 +34,6 @@ function Lab4() {
     onSuccess: () => {
       message.success("Xóa thành công");
 
-      // Reload danh sách
       queryClient.invalidateQueries({
         queryKey: ["stories"],
       });
