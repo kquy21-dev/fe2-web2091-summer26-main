@@ -160,21 +160,21 @@ function Lab2() {
 
   return (
     <>
-      <h2>Bài 1 - Danh sách sinh viên</h2>
+      <h2>Danh sách sinh viên</h2>
       <Table
         columns={studentColumns}
         dataSource={studentData}
         pagination={false}
       />
 
-      <h2 style={{ marginTop: 30 }}>Bài 2 - Danh sách sản phẩm</h2>
+      <h2 style={{ marginTop: 30 }}>Danh sách sản phẩm</h2>
       <Table
         columns={productColumns}
         dataSource={productData}
         pagination={{ pageSize: 3 }}
       />
 
-      <h2 style={{ marginTop: 30 }}>Bài 3 - User Management</h2>
+      <h2 style={{ marginTop: 30 }}>User Management</h2>
       <Table
         columns={userColumns}
         dataSource={userData}
